@@ -1,3 +1,4 @@
+USE employeetracker;
 truncate table department;
 insert into department (id,name) values(1,"hr");
 insert into department (id,name) values(2,"finance");

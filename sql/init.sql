@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS employeetracker;
+
+CREATE DATABASE employeetracker;
+USE employeetracker;
 CREATE TABLE department (
     id int NOT NULL PRIMARY KEY,
     name varchar(30)

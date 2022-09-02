@@ -1,9 +1,12 @@
 // get the client
-const mysql = require("mysql2");
+import mysql from "mysql2";
+// require("dotenv");
+import dotenv from "dotenv";
 // create the connection
 const con = mysql.createConnection({
   host: "localhost",
   user: "root",
+  password: process.env.PASSWORD,
   database: "employeetracker",
 });
-module.exports = con;
+export default con;

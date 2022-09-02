@@ -19,7 +19,9 @@
   "homepage": "https://github.com/emismol/employee-tracker#readme",
   "dependencies": {
     "console.table": "^0.10.0",
+    "dotenv": "^16.0.2",
     "inquirer": "^9.1.0",
     "mysql2": "^2.3.3"
-  }
+  },
+  "type": "module"
 }
